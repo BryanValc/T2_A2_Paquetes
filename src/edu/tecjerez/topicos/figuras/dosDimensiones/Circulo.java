@@ -1,6 +1,7 @@
 package edu.tecjerez.topicos.figuras.dosDimensiones;
 
 public class Circulo {
+	
 	private double radio;
 
 	public Circulo(double radio) {

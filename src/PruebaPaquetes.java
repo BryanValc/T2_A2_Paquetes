@@ -1,5 +1,5 @@
 import edu.tecjerez.topicos.figuras.dosDimensiones.*;
-
+import edu.tecjerez.topicos.figuras.tresDimensiones.*;
 
 
 public class PruebaPaquetes {
@@ -17,6 +17,12 @@ public class PruebaPaquetes {
 		Elipse elp = new Elipse(3,2);
 		System.out.println(elp.obtenerArea());
 		System.out.println(elp.obtenerPerimetro());
+		
+		Piramide prm = new Piramide(3,5);
+		System.out.println(prm.obtenerVolumen());
+		System.out.println(prm.obtenerArea());
+		
+		
 		
 	}
 
