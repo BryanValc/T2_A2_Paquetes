@@ -6,11 +6,12 @@ public class Circulo {
 	public Circulo(double radio) {
 		this.radio = radio;
 	}
+	
 	public double obtenerArea() {
-		return Math.PI*Math.pow(radio, 2);
+		return Math.PI*Math.pow(getRadio(), 2);
 	}
 	public double obtenerPerimetro() {
-		return 2*Math.PI*radio;
+		return 2*Math.PI*getRadio();
 	}
 	
 	public double getRadio() {
