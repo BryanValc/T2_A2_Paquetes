@@ -14,6 +14,10 @@ public class PruebaPaquetes {
 		System.out.println(crc.obtenerArea());
 		System.out.println(crc.obtenerPerimetro());
 		
+		Elipse elp = new Elipse(3,2);
+		System.out.println(elp.obtenerArea());
+		System.out.println(elp.obtenerPerimetro());
+		
 	}
 
 }
