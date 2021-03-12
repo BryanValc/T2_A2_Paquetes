@@ -56,7 +56,7 @@ class Paquetes extends JFrame implements ActionListener{
 					caja1.setEditable(false);
 				}
 			}
-		});
+		});//validacion
 		
 		parametro2 = new JLabel("Parametro 2");
 		inst(parametro2, 0, 2, 2, 1, GridBagConstraints.NONE);
@@ -72,7 +72,7 @@ class Paquetes extends JFrame implements ActionListener{
 					caja2.setEditable(false);
 				}
 			}
-		});
+		});//validacion
 		
 		inst(new JLabel("Calcular"), 4, 0, 1, 3, GridBagConstraints.NONE);
 		
