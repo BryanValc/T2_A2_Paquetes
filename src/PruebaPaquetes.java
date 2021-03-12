@@ -22,7 +22,9 @@ public class PruebaPaquetes {
 		System.out.println(prm.obtenerVolumen());
 		System.out.println(prm.obtenerArea());
 		
-		
+		Cono cn = new Cono(3,5);
+		System.out.println(cn.obtenerVolumen());
+		System.out.println(cn.obtenerArea());
 		
 	}
 
